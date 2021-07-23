@@ -1,0 +1,17 @@
+{
+    "name": "ivone/kd100",
+    "description": "快递100查询",
+    "type": "library",
+    "require": {
+        "php": ">=7.3",
+        "guzzlehttp/guzzle": "^7.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ivone",
+            "email": "i@ivone.me"
+        }
+    ],
+    "minimum-stability": "stable"
+}
