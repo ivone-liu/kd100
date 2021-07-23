@@ -4,7 +4,8 @@
     "type": "library",
     "require": {
         "php": ">=7.3",
-        "guzzlehttp/guzzle": "^7.3"
+        "guzzlehttp/guzzle": "^7.3",
+        "phpunit/phpunit": "^9.5"
     },
     "license": "MIT",
     "authors": [
@@ -13,5 +14,15 @@
             "email": "i@ivone.me"
         }
     ],
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Ivone\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ivone\\Tests\\": "tests/"
+        }
+    }
 }
